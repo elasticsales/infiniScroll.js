@@ -80,6 +80,7 @@ describe("InfiniScroll", function() {
       it("should disable fetch when the response page size is less than the requested page size", function() {
         collection.length = PAGE_SIZE * 1.5;
         infini.fetchSuccess(collection, [{id: 1}]);
+        infini.checkDisable(); // would get called during scroll automatically
         expect(infini.disableFetch).toHaveBeenCalled();
       });
     });

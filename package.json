@@ -2,10 +2,10 @@
   "name": "backbone-infiniscroll",
   "version": "1.0.0",
   "description": "infiniScroll.js is a Backbone.js module to add infinite scrolling to your backbone views. Simply create an `InfiniScroll` object passing the desired collection and success callback.",
-  "main": "index.js",
+  "main": "./lib/infiniScroll.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
